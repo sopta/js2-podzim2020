@@ -1,1 +1,1 @@
-# js2-podzim2020
+# JavaScript 2 - podzim 2020
