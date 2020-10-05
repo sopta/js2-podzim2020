@@ -5,3 +5,11 @@
 // querySelectorAll
 // innerHTML
 // forEach
+
+const seznam = [
+    "Prádlo",
+    "Odpadky",
+    "Nádobí",
+    "Nákup",
+    "Netflix"
+];
