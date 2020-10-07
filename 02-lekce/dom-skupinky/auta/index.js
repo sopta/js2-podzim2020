@@ -24,6 +24,7 @@ let auta = [
   - použij šablonu, která je v komentáři v HTML
   - nezapisuj auta do HTML po jednom, ale připrav si celý seznam
     do proměnné a teprve tu pak "plácni" do HTML
+    vyzkoušej si innerHTML i document.createElement()
 
   BONUS:
   - přidej textové pole pro hledání - po kliknutí na tlačítko
