@@ -24,10 +24,11 @@ let auta = [
   - použij šablonu, která je v komentáři v HTML
   - nezapisuj auta do HTML po jednom, ale připrav si celý seznam
     do proměnné a teprve tu pak "plácni" do HTML
-  - nepiš kód přímo do hlavního programu, ale používej funkce.
-    V hlavním progamu by mělo být pouze volání těchto funkcí.
 
   BONUS:
   - přidej textové pole pro hledání - po kliknutí na tlačítko
     (nebo rovnou při psaní) hledej auta podle výrobce/modelu
+
+  - nepiš kód přímo do hlavního programu, ale používej funkce.
+    V hlavním progamu by mělo být pouze volání těchto funkcí.
 */
