@@ -1,6 +1,7 @@
 import '../css/style.css';
 // import { v4 as uuidv4 } from 'uuid';
 import Post from './post'
+import template from './template'
 
 let newPost = {
     title: "Prvni",
@@ -10,6 +11,8 @@ let newPost = {
 
 //createPost().then(post => console.log(post))
 
+let posts = document.querySelector('#posts')
+
 document.querySelector('form').addEventListener("submit", async event => {
     event.preventDefault()
 
@@ -17,6 +20,15 @@ document.querySelector('form').addEventListener("submit", async event => {
 
     let post = await createPost(Object.fromEntries(formData))
     console.log(post)
+
+    // col-md-3 mt-2
+    let postCol = document.createElement('div')
+    postCol.classList.add('col-md-3')
+    postCol.classList.add('mt-2')
+
+    postCol.innerHTML = template(post)
+
+    posts.appendChild(postCol)
 })
 
 

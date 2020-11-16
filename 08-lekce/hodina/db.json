@@ -1,21 +1,21 @@
 {
   "posts": [
     {
-      "title": "Muj novy titulek",
+      "title": "Dnešní lekce JS",
       "author": "Zdenek",
-      "content": "muj obsah",
+      "content": "njansgjnjkasnfgjknasjnfjasnfjasdf",
       "id": 1
     },
     {
-      "title": "dalsi tit",
-      "author": "Luba",
-      "content": "fngosnjgnjkdsfng",
+      "title": "aaaaa",
+      "author": "bbbbb",
+      "content": "malkmdjsndjnkjagnjksgf",
       "id": 2
     },
     {
-      "title": "amgknksnfgsglnsklgn",
-      "author": "eewewewewe",
-      "content": "ppppp",
+      "title": "Další článek",
+      "author": "novej autor",
+      "content": "obsah",
       "id": 3
     }
   ]
