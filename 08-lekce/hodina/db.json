@@ -1,6 +1,22 @@
 {
   "posts": [
-
-  ],
-  "comments": []
+    {
+      "title": "Muj novy titulek",
+      "author": "Zdenek",
+      "content": "muj obsah",
+      "id": 1
+    },
+    {
+      "title": "dalsi tit",
+      "author": "Luba",
+      "content": "fngosnjgnjkdsfng",
+      "id": 2
+    },
+    {
+      "title": "amgknksnfgsglnsklgn",
+      "author": "eewewewewe",
+      "content": "ppppp",
+      "id": 3
+    }
+  ]
 }
