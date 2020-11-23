@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "Dnešní lekce JS",
+      "author": "Zdenek",
+      "content": "njansgjnjkasnfgjknasjnfjasnfjasdf",
+      "id": 1
+    },
+    {
+      "title": "aaaaa",
+      "author": "bbbbb",
+      "content": "malkmdjsndjnkjagnjksgf",
+      "id": 2
+    },
+    {
+      "title": "Další článek",
+      "author": "novej autor",
+      "content": "obsah",
+      "id": 3
+    }
+  ]
+}
