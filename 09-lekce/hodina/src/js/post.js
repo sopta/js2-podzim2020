@@ -1,4 +1,4 @@
-export default class {
+export default class Post {
     constructor(id, title, author, content) {
         this._id = id
         this._title = title

@@ -34,7 +34,8 @@ export default class App {
             
             this.showPosts()
 
-            document.querySelectorAll('form input, form textarea').forEach(input => input.value = '')
+            event.target.querySelectorAll('input, textare').forEach(input => input.value = '')
+            //document.querySelectorAll('form input, form textarea').forEach(input => input.value = '')
         })
     }
 
