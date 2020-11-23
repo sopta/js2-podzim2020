@@ -27,16 +27,13 @@ export default class App {
         
             let formData = new FormData(event.target)
         
-            let post = await this.createPost(Object.fromEntries(formData))
-        
-            // col-md-3 mt-2
-            let postCol = document.createElement('div')
-            postCol.classList.add('col-md-3')
-            postCol.classList.add('mt-2')
-        
-            postCol.innerHTML = template(post)
-        
-            this.postsDIV.appendChild(postCol)
+            await this.createPost(Object.fromEntries(formData))
+            this.showPosts()
+
+            this.
+                formDOMElement.
+                querySelectorAll("input, textarea").
+                forEach(input => input.value = "")
         })
     }
 
@@ -44,17 +41,28 @@ export default class App {
         let response = await fetch(`${this.baseURL}/posts`)
         let data = await response.json()
 
-        let content = ""
-
         data = data.map(post => new Post(post.id, post.title, post.author, post.content))
 
-        console.log(data)
+        let content = ""
+
+        data.forEach(post => content += template(post))
 
         this.postsDIV.innerHTML = content
+    }
+
+    createRemoveListener() {
+        this.postsDIV.addEventListener("click", event => {
+            if (event.target.dataset.id !== "undefined") { // tlacitko Smazat
+                fetch(`${this.baseURL}/posts/${event.target.dataset.id}`, {
+                    method: "DELETE"
+                }).then(_ => this.showPosts())
+            }
+        })
     }
 
     run() {
         this.createFormListener()
         this.showPosts()
+        this.createRemoveListener()
     }
 }

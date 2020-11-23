@@ -6,6 +6,7 @@ export default class Post {
         this._content = content
     }
 
+    get id() { return this._id }
     get title() { return this._title }
     get author() { return this._author }
     get content() { return this._content }
