@@ -2,7 +2,13 @@
   "posts": [
     {
       "title": "Druhej",
-      "author": "Zdenek",
+      "author": {
+        "name": "Zdenek"
+      },
+      "category": {
+        "id": 1
+        "name": "Moda"
+      }
       "content": "Parada",
       "id": 2
     }
