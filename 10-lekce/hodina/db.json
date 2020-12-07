@@ -1,10 +1,16 @@
 {
   "posts": [
     {
-      "title": "adfasdgf",
-      "author": "safgsfgs",
-      "content": "fgsfgsfdgsdfg",
-      "id": 3
+      "title": "klsdngnsjldng",
+      "author": "mksnhjnsdjkhn",
+      "content": "mgksnhjlndsjhnjsd",
+      "id": 4
+    },
+    {
+      "title": "článek",
+      "author": "Zdenek",
+      "content": "Internet je cool",
+      "id": 5
     }
   ]
 }
